@@ -1,0 +1,85 @@
+*{padding: 0; margin:0; box-sizing: border-box; font-family: sans-serif;}
+/*
+
+
+*/
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: rgb(248, 244, 244);
+    background: #119052;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin:0 5px;
+}
+.nav1 a{
+    text-decoration: none;
+    color:rgb(248, 236, 236);
+    padding: 5px 10px;
+    background: #20513f;
+}
+.nav2{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+.menu a{
+    text-decoration: none;
+    color: #1f2e3e;
+    padding: 10px 20px;
+
+}
+
+.menu a:hover{
+    color: #05bbf2;
+}    
+
+header
+{
+    width: 100%;
+    height: 100vh;
+    background: #e67e22;
+    background:linear-gradient(rgba(67, 67, 67, 0.7) 80%,#105320d4), url('images/scene.jpg');
+    background-size: 100% 100%;
+}
+
+.h-text{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.h-text h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+.h-text p{
+    font-size: 20px;
+    margin: 40px 0px;
+    line-height: 30px;
+
+}
+
+.h-text a{
+    text-decoration: none;
+    color: white;
+    background: #61b3d4;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+}
+
+.h-text a:hover{
+    color: #062ced;
+}
